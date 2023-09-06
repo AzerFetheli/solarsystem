@@ -1,0 +1,518 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.solarsystem{position: relative;
+    width: 100%;
+ height: 800px;
+    background-color: #080e24 ;
+    .pluto{ position: absolute;
+        top: 30px;
+    left: 190px;
+        width:580px;
+        height: 580px;
+        border: 1px solid #acacac;
+        border-radius: 100%;
+        animation: pluto 20s linear infinite;
+        @keyframes pluto{
+            0%{
+                transform: rotate(0deg)
+            }
+            100%{
+                transform: rotate(360deg)
+            }
+        }
+      
+      .plutoball { position: absolute;
+        top: 79px;
+    left: 70px;
+    background-color: #7c6a5c;
+    border: 1px solid #7c6a5c;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+   
+
+      }
+    }
+.neptun{
+    width: 520px;
+    height: 520px;
+    position: absolute;
+    top: 60px;
+    left: 220px;
+    border: 1px solid #acacac;
+    border-radius: 100%;
+    animation: neptun 18s linear infinite;
+    @keyframes neptun{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+
+    .neptunball{
+        background-color: #77c2ec;
+        position: absolute;
+    top: 0px;
+    left: 180px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    }
+}
+
+.uran{
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    border: 1px solid #acacac;
+    border-radius: 100%;
+animation: uran 16s linear infinite;
+@keyframes uran{
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+
+
+ .uranball{
+ width: 20px;
+ height: 20px;
+ background-color:  #82b3d1;
+ border-radius: 100%;
+ position: absolute;
+ top: 7px;
+    left: 300px;
+ }
+}
+.saturn{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 120px;
+    left: 280px;
+    border: 1px solid #acacac;
+    border-radius: 100%;
+    animation:saturn 14s linear infinite;
+    @keyframes saturn{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+    .saturnball{
+        width: 20px ;
+        height: 20px;
+        background-color: #dfd3a9;
+        position: absolute;
+        border-radius: 100%;
+    top: 24px;
+    left: 300px;
+    }
+}
+.yupiter{
+    width: 340px;
+    height: 340px;
+    border: 1px solid #acacac;
+    border-radius: 100%;
+    position: absolute;
+    top: 150px;
+    left: 310px;
+    animation: yupiter 12s linear infinite;
+    @keyframes yupiter{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    
+
+
+
+    .yupiterball{
+     width: 20px;
+     height: 20px;
+     background-color: #e0ae6f;
+     position: absolute;
+    top: 67px;
+    left: 19px;
+    border-radius: 100%;
+   
+    }
+}
+.mars{
+    width: 280px;
+    height: 280px;
+    border: 1px solid #acacac;
+    border-radius: 100%;
+    position: absolute;
+    top: 180px;
+    left: 340px;
+    animation: mars 10s linear infinite;
+    @keyframes mars{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+
+
+    .marsball{
+        background-color: #aa4200;
+        position: absolute;
+        top: 0px;
+        left: 175px;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+    }
+}
+.earth{
+    width: 220px;
+    height: 220px;
+    border: 1px solid #acacac;
+    border-radius: 100%;
+    position: absolute;
+    top: 210px;
+    left: 370px;
+    animation: earth 6s linear infinite;
+    @keyframes earth{
+        0%{
+transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+    }
+
+
+
+    .earthball{ width: 20px;
+        height: 20px;
+        background-color: #06c;
+        position: absolute;
+        top: 56px;
+        left: 5px;
+        border-radius: 100%;
+        animation: earthball 8s linear infinite;
+        @keyframes earthball{
+            0%{
+    transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    
+        }
+    }
+    .moon{
+        width: 4px;
+        height: 4px;
+        border-radius: 100%;
+        background-color: #ccc;
+        position: absolute;
+    top: 47px;
+    left: 16px;
+
+    }
+
+}
+.venera{
+    width: 160px;
+    height: 160px;
+    border: 1px solid#acacac;
+    border-radius: 100%;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+    animation: venera 4s linear infinite;
+    @keyframes venera{
+        0%{
+            transform: rotate(0deg);
+
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+
+
+    .veneraball{width: 20px;
+        height: 20px;
+        background-color: #bf8639;
+        position: absolute;
+    top: 118px;
+    left: 9px;
+    border-radius: 100%;
+    }
+}
+.mercury{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 270px;
+    left: 430px;
+    border: 1px solid #acacac;
+    border-radius: 100%;
+animation: mercury 2s linear infinite;
+@keyframes mercury{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+}
+
+
+    .mercuryball{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: #b6bac5;
+        position: absolute;
+    top: 10px;
+    left: 3px;
+    }
+}
+.sun{
+    border: none;
+    width: 40px;
+    height: 40px;
+    background: #fc3;
+    position: absolute;
+    top: 302px;
+    left: 462px;
+    border-radius: 100%;
+}
+
+}
+.home{
+    position: relative;
+.about{width: 200px;
+    height: 400px;
+position: absolute;
+top: 30%;
+right: 60px;
+ul{
+    li{
+        list-style: none;
+        color: #386077;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    #sun{ position: relative;
+        p{position: absolute;
+            top: 30%;
+            right: 250px;
+            width: 90%;
+            border: 1px solid #acacac;
+            border-radius: 10px;
+            padding: 10px;
+            opacity: 0;
+            font-size: 10px; 
+            transition: 1s;
+            }
+            &#sun:hover{
+                p{
+                    opacity:1;
+                }
+            }
+        }
+    }
+}
+
+
+#mercury{ position: relative;
+    p{position: absolute;
+        top: 30%;
+        right: 250px;
+        width: 90%;
+        border: 1px solid #acacac;
+        border-radius: 10px;
+        padding: 10px;
+        opacity: 0;
+        font-size: 10px; 
+        transition: 1s;
+        }
+        &#mercury:hover{
+            p{
+                opacity:1;
+            }
+        }
+    }
+    #venus{ position: relative;
+        p{position: absolute;
+            top: 30%;
+            right: 250px;
+            width: 90%;
+            border: 1px solid #acacac;
+            border-radius: 10px;
+            padding: 10px;
+            opacity: 0;
+            font-size: 10px; 
+            transition: 1s;
+            }
+            &#venus:hover{
+                p{
+                    opacity:1;
+                }
+            }
+        }
+        #earth{ position: relative;
+            p{position: absolute;
+                top: 30%;
+                right: 250px;
+                width: 90%;
+                border: 1px solid #acacac;
+                border-radius: 10px;
+                padding: 10px;
+                opacity: 0;
+                font-size: 10px; 
+                transition: 1s;
+                }
+                &#earth:hover{
+                    p{
+                        opacity:1;
+                    }
+                }
+            }
+            #mars{ position: relative;
+                p{position: absolute;
+                    top: 30%;
+                    right: 250px;
+                    width: 90%;
+                    border: 1px solid #acacac;
+                    border-radius: 10px;
+                    padding: 10px;
+                    opacity: 0;
+                    font-size: 10px; 
+                    transition: 1s;
+                    }
+                    &#mars:hover{
+                        p{
+                            opacity:1;
+                        }
+                    }
+                }
+                #jupiter{ position: relative;
+                    p{position: absolute;
+                        top: 30%;
+                       right: 250px;
+                        width: 90%;
+                        border: 1px solid #acacac;
+                        border-radius: 10px;
+                        padding: 10px;
+                        opacity: 0;
+                        font-size: 10px; 
+                        transition: 1s;
+                        }
+                        &#jupiter:hover{
+                            p{
+                                opacity:1;
+                            }
+                        }
+                    }
+                    #saturn{ position: relative;
+                        p{position: absolute;
+                            top: 30%;
+                            right: 250px;
+                            width: 90%;
+                            border: 1px solid #acacac;
+                            border-radius: 10px;
+                            padding: 10px;
+                            opacity: 0;
+                            font-size: 10px; 
+                            transition: 1s;
+                            }
+                            &#saturn:hover{
+                                p{
+                                    opacity:1;
+                                }
+                            }
+                        }
+                        #uranus{ position: relative;
+                            p{position: absolute;
+                                top: 30%;
+                                right: 250px;
+                                width: 90%;
+                                border: 1px solid #acacac;
+                                border-radius: 10px;
+                                padding: 10px;
+                                opacity: 0;
+                                font-size: 10px; 
+                                transition: 1s;
+                                }
+                                &#uranus:hover{
+                                    p{
+                                        opacity:1;
+                                    }
+                                }
+                            }
+                            #neptune{ position: relative;
+                                p{position: absolute;
+                                    top: 30%;
+                                    right: 250px;
+                                    width: 90%;
+                                    border: 1px solid #acacac;
+                                    border-radius: 10px;
+                                    padding: 10px;
+                                    opacity: 0;
+                                    font-size: 10px; 
+                                    transition: 1s;
+                                    }
+                                    &#neptune:hover{
+                                        p{
+                                            opacity:1;
+                                        }
+                                    }
+                                }
+                                #pluto{ position: relative;
+                                    p{position: absolute;
+                                        top: 30%;
+                                        right: 250px;
+                                        width: 90%;
+                                        border: 1px solid #acacac;
+                                        border-radius: 10px;
+                                        padding: 10px;
+                                        opacity: 0;
+                                        font-size: 10px; 
+                                        transition: 1s;
+                                        }
+                                        &#pluto:hover{
+                                            p{
+                                                opacity:1;
+                                            }
+                                        }
+                                    }
+                                    
+}
+
+
+
+
+
+
